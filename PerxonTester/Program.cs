@@ -14,14 +14,14 @@ namespace PerxonTester
             Person person = Person.CreatePerson("Donald", "Trump");
             Console.WriteLine(person);
 
-            Person person2 = Person.CreatePerson("Solanky", "Taraja");
+            person = Person.CreatePerson("Solanky", "Taraja");
             Console.WriteLine(person);
             Console.WriteLine(Person.CreatePerson("Sylvere","Ekponon"));
             person = Person.CreatePerson("Solanky", "Thareja");
             person = Person.CreatePerson("Solanky", "Thareja");
             person = Person.CreatePerson("Solanky", "Thareja");
 
-            //Person person3 = new Person("Solanky", "Thareja");
+            
         }
     }
 }
