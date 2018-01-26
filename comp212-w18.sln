@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersonTester", "PerxonTeste
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DelegateDemo", "DelegateDemo\DelegateDemo.csproj", "{BE0EAD38-80E8-483F-8755-9C962C3BABD7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GretterDemo", "GretterDemo\GretterDemo.csproj", "{15C2EAA5-B131-4AD7-A7CF-85994D1B33D2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{BE0EAD38-80E8-483F-8755-9C962C3BABD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BE0EAD38-80E8-483F-8755-9C962C3BABD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BE0EAD38-80E8-483F-8755-9C962C3BABD7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15C2EAA5-B131-4AD7-A7CF-85994D1B33D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15C2EAA5-B131-4AD7-A7CF-85994D1B33D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15C2EAA5-B131-4AD7-A7CF-85994D1B33D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15C2EAA5-B131-4AD7-A7CF-85994D1B33D2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

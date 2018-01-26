@@ -13,7 +13,7 @@ namespace DelegateDemo
     {
         public static void Clinton() { Console.WriteLine("Done By Clinton"); }
 
-        public  void Justin() { Console.WriteLine("Done By Justine"); }
+        public  void Justin() { Console.WriteLine("Done By Justin"); }
     }
 
     class Program
