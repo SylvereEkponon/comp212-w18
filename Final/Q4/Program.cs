@@ -17,10 +17,10 @@ namespace Q4
             var groupByValue = values.GroupBy(x => x).OrderBy(x=>x.Key);
             foreach (var item in groupByValue)
             {
-                Console.WriteLine($"{item.Key}:{item.Count()}");
+                Console.WriteLine($"{item.Key} ===> {item.Count()} times");
                 total += item.Count();
             }
-            Console.WriteLine($"Total:{total}"); 
+            Console.WriteLine($"\nTotal:{total}"); 
                 
         }
     }
