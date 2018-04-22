@@ -10,6 +10,7 @@ namespace Q4
     {
         static void Main(string[] args)
         {
+            int total = 0;
             Random random = new Random();
             int[] values = Enumerable.Repeat(0, 60000000)
                 .Select(x => random.Next(1, 7)).ToArray();
@@ -17,7 +18,9 @@ namespace Q4
             foreach (var item in groupByValue)
             {
                 Console.WriteLine($"{item.Key}:{item.Count()}");
+                total += item.Count();
             }
+            Console.WriteLine($"Total:{total}"); 
                 
         }
     }
