@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2002
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "w8_DataStructures", "w8_DataStructures\w8_DataStructures.csproj", "{4B29AB31-16B3-4A92-92A8-B4EE3B6B4A20}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QueueDemo", "QueueDemo\QueueDemo.csproj", "{C613F5CF-1D62-4568-9107-D5FF70A82ABD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4B29AB31-16B3-4A92-92A8-B4EE3B6B4A20}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B29AB31-16B3-4A92-92A8-B4EE3B6B4A20}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B29AB31-16B3-4A92-92A8-B4EE3B6B4A20}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B29AB31-16B3-4A92-92A8-B4EE3B6B4A20}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C613F5CF-1D62-4568-9107-D5FF70A82ABD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C613F5CF-1D62-4568-9107-D5FF70A82ABD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C613F5CF-1D62-4568-9107-D5FF70A82ABD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C613F5CF-1D62-4568-9107-D5FF70A82ABD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4CC25558-B7FB-4F4D-9FF1-CD3A163DA22B}
+	EndGlobalSection
+EndGlobal

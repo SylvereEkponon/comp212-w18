@@ -1,0 +1,54 @@
+﻿<UserControl x:Class="Wk03_UserControl.CtrlLogin"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Wk03_UserControl"
+             mc:Ignorable="d" 
+             d:DesignHeight="183.553" d:DesignWidth="300">
+    <Border BorderThickness="10" Background="DarkBlue">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="60*"/>
+            <RowDefinition Height="45*"/>
+            <RowDefinition Height="45*"/>
+            <RowDefinition Height="60*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="8*"/>
+            <ColumnDefinition Width="16*"/>
+        </Grid.ColumnDefinitions>
+            <Grid.Resources>
+                <Style TargetType="Button">
+                    <Setter Property="Margin" Value="5"/>
+                    <Setter Property="Background" Value="CornflowerBlue"/>
+                </Style>
+                <Style TargetType="TextBox">
+                    <Setter Property="Margin" Value="3"/>
+                </Style>
+                <Style TargetType="Label">
+                    <Setter Property="Foreground" Value="Khaki"/>
+                </Style>
+            </Grid.Resources>
+        <!-- first row-->
+            <Label Grid.ColumnSpan="2" Content="Login to Inventory System" 
+                   Foreground="White" HorizontalContentAlignment="Center" FontWeight="Bold" FontSize="16"/>
+        <!-- second row-->
+            <Label Grid.Column="0" Grid.Row="1" Content="Name"/>
+            <TextBox x:Name="txtName" Grid.Column="1" Grid.Row="1" Text="Sylvere"/>
+        
+        <!-- third row-->
+            <Label Grid.Column="0" Grid.Row="2" Content="Password"/>
+            <PasswordBox x:Name="txtPassword" Grid.Column="1" Grid.Row="2" Password="secret" Margin="3"/>
+        <!--fourth row-->
+            <Grid Grid.Row="3" Grid.ColumnSpan="2">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="20*"/>
+                    <ColumnDefinition Width="20*"/>
+                </Grid.ColumnDefinitions>
+                <Button x:Name="btnClear" Content="Clear" Click="btnClear_Click"/>
+                <Button Grid.Column="1" x:Name="btnLogin" Content="Login" Click="btnLogin_Click"/>
+            </Grid>
+        </Grid>
+    </Border>
+</UserControl>

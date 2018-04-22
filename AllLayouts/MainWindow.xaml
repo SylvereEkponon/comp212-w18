@@ -1,0 +1,27 @@
+﻿<Window x:Class="AllLayouts.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AllLayouts"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="690">
+    <DockPanel >
+        <DockPanel.Resources>
+            <Style TargetType="Button">
+                <Setter Property="Width" Value="100"/>
+                <Setter Property="Margin" Value="5"/>
+            </Style>
+        </DockPanel.Resources>
+        <StackPanel DockPanel.Dock="Top" Orientation="Horizontal" Height="32" ButtonBase.Click="StackPanel_Click">
+            <Button x:Name="canvasBtn" Content="Canvas"/>
+            <Button x:Name="dockPanelBtn" Content="Dock Panel"/>
+            <Button x:Name="stackPanelBtn" Content="Stack Panel"/>
+            <Button x:Name="wrapBtn" Content="Wrap Panel"/>
+            <Button x:Name="gridBtn" Content="Grid"/>
+            <Button x:Name="uniFormGridBtn" Content="uniGrid"/>
+            
+        </StackPanel>
+        <Frame x:Name="frmContent"/>
+    </DockPanel>
+</Window>
